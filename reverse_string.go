@@ -1,5 +1,7 @@
 package reverse_string
 
+import "github.com/kyokomi/emoji/v2"
+
 func ReverseString(input string) (output string) {
 	var s = []byte(input)
 	for i := 0; i < len(s)-1; i++ {
